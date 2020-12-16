@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <style>
+        myCanvas {
+            display: inline-block;
+            vertical-align: left;
+            margin: 0;
+            border: 0;
+            padding: 0;
+        }
+    </style>
+    <canvas id="myCanvas" width="1280" height="720"></canvas>
+    <style>
+        usersOnline {
+            text-align: right;
+            font-size: medium;
+            display: inline;
+        }
+    </style>
+    <div id="usersOnline">
+        <h1 id=>Log:<br></h1>
+        <ul> 
+
+        </ul>
+    </div>
+    <script src="https://cdn.socket.io/socket.io-3.0.0.js"></script>
+    <script defer src="./app.js"></script>
+</head>
+
+<body>
+    <div id="nickWrap">
+        <p id="nickError"></p>
+        <input type="text" size="35" id="nickname" placeholder="Set Username"></input>
+        <button id="setUsername">Set Username</button>
+    </div>
+    <style>
+        health{
+            display: inline;
+        }
+    </style>
+    <health>
+            <button id = 'incHealth' hidden>+</button>
+            <button id = 'decHealth' hidden>-</button>
+    </health>
+</body>
+
+</html>
