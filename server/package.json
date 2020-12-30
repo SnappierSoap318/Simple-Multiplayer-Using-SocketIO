@@ -11,6 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "redis": "^3.0.2",
+    "redis-server": "^1.2.2",
     "socket.io": "^3.0.4",
     "ws": "^7.4.1"
   }
